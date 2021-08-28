@@ -27,9 +27,6 @@ public class Bio {
 <a href="https://www.spigotmc.org/members/mrgeotech.995114/">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3_CbZPq2hiHOlLwIPGCzjWylBiwDybhQtAjEDnPPOPlAdgRK8jL816xdYBlq9oJLC6w&usqp=CAU" alt="My Spigot profile" height="40" width="40">
 </a>
-<a href="https://www.codewars.com/users/MrGeoTech">
-<img src="https://www.codewars.com/assets/logos/logo-61192cf7c75904d495e7ad69695fbf0bffd965bc3e17ac60f6c6b475304db09d.svg" alt="My CodeWars profile" height="40" width="50">
-</a>
 <a href="https://stackoverflow.com/users/15192682/mrgeotech">
 <img src="https://www.vectorlogo.zone/logos/stackoverflow/stackoverflow-icon.svg" alt="My StackOverflow profile" height="40" width="35">
 </a>
