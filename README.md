@@ -3,20 +3,20 @@
 ```java
 public class Bio {
     
-    private static final String name = "Isaac George";
-    private static final String from = "United States";
-    private static final String favoriteLanguage = "Java";
+    private static final String NAME = "Isaac George";
+    private static final String FROM = "United States";
+    private static final String FAVORITE_LANGUAGE = "Java";
     
-    private static final int age = 16;
+    private static final byte AGE = 16;
 
-    private static final String[] knownLanguages = {
+    private static String[] knownLanguages = {
         "Java",
         "HTML/CSS",
         "PHP",
         "Python",
         "JavaScript"
     };
-    private static final String[] interests = {
+    private static String[] interests = {
         "Programming"
         "Machine Learning/AI"
         "Minecraft Plugin Development"
