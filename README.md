@@ -10,29 +10,17 @@ public class Bio {
     private static final int age = 16;
 
     private static final String[] knownLanguages = {
-```
-<h4>- Java<br>- C++<br>- HTML&CSS<br>- C#<br>- SQL</h4>
-
-```java
+        "Java",
+        "HTML/CSS",
+        "PHP",
+        "Python",
+        "JavaScript"
     };
     private static final String[] interests = {
-```
-<h4>- Programming<br>- Machine Learning/AI<br>- Minecraft Plugin Development<br>- Servers</h4>
-
-```java
-    };
-    private static final String[] contacts = {
-```
-<h3 align="center">
-<a href="https://www.spigotmc.org/members/mrgeotech.995114/">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3_CbZPq2hiHOlLwIPGCzjWylBiwDybhQtAjEDnPPOPlAdgRK8jL816xdYBlq9oJLC6w&usqp=CAU" alt="My Spigot profile" height="40" width="40">
-</a>
-<a href="https://stackoverflow.com/users/15192682/mrgeotech">
-<img src="https://www.vectorlogo.zone/logos/stackoverflow/stackoverflow-icon.svg" alt="My StackOverflow profile" height="40" width="35">
-</a>
-</h3>
-
-```java
+        "Programming"
+        "Machine Learning/AI"
+        "Minecraft Plugin Development"
+        "Server/Backend Technology"
     };
 }
 ```
