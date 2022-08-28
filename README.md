@@ -7,7 +7,7 @@ public class Bio {
     private static final String FROM = "United States";
     private static final String FAVORITE_LANGUAGE = "Java";
     
-    private static final byte AGE = 17;
+    private static byte AGE = 17;
 
     private static String[] knownLanguages = {
         "Java",
