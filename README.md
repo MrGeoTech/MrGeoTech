@@ -1,27 +1,32 @@
 <h1 align="center">Welcome to my GitHub!</h1>
 
-```java
-public class Bio {
-    
-    private static final String NAME = "Isaac George";
-    private static final String FROM = "United States";
-    private static final String FAVORITE_LANGUAGE = "Java";
-    
-    private static byte AGE = 17;
+```kotlin
+class Bio {
 
-    private static String[] knownLanguages = {
+    val name = "Isaac George"
+    val username = "MrGeoTech"
+    val nickname = "Geo"
+    var location = "United States"
+    var occupation: String? = "Student"
+    var favoriteLanguage = "Kotlin"
+    
+    var age = 18
+    
+    val knownLanguages = mutableListOf(
         "Java",
-        "HTML/CSS",
-        "PHP",
-        "Python",
-        "JavaScript"
-    };
-    private static String[] interests = {
-        "Programming"
-        "Machine Learning/AI"
-        "Minecraft Plugin Development"
-        "Server/Backend Technology"
-    };
+        "Kotlin",
+        "JavaScript",
+        "C#",
+        "C++",
+    )
+    val interests = mutableListOf(
+        "VLSI Design",
+        "Computer Architecture",
+        "Minecraft Plugin Development",
+        "Video Games",
+        "Music",
+    )
+
 }
 ```
 
