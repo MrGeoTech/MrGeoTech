@@ -8,11 +8,13 @@ class Bio {
     val nickname = "Geo"
     var location = "United States"
     var occupation: String? = "Student"
-    var favoriteLanguage = "Kotlin"
+    var institution: String? = "NDSU 🟩🦬🟨"
+    var favoriteLanguage = "Zig"
     
     var age = 18
     
     val knownLanguages = mutableListOf(
+        "Zig",
         "Java",
         "Kotlin",
         "JavaScript",
