@@ -32,6 +32,10 @@ class Bio {
 }
 ```
 
+<h2 align="center"><br/>Metrics</h3>
+
+[![MrGeoTech's Metrics](./metrics.terminal.svg)](https://github.com/lowlighter/metrics)
+
 <h2 align="center"><br/>Statistics</h3>
 
 <h3 align="center">Profile views</h3>
