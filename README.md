@@ -1,35 +1,38 @@
 <h1 align="center">Welcome to my GitHub!</h1>
 
-```kotlin
-class Bio {
+```zig
+pub const bio = struct {
+    
+    pub const KnownLanguage = enum(u8) {
+        c,
+        java,
+        kotlin,
+        vhdl,
+        verilog,
+        zig,
+    };
 
-    val name = "Isaac George"
-    val username = "MrGeoTech"
-    val nickname = "Geo"
-    var location = "United States"
-    var occupation: String? = "Student"
-    var institution: String? = "NDSU 🟩🦬🟨"
-    var favoriteLanguage = "Zig"
+    name: []const u8 = "Isaac George",
+    username: []const u8 = "MrGeoTech",
+    location: []u8 = "United States",
+    occupation: ?[]u8 = "Student",
+    institution: ?[]u8 = "NDSU 🟩🦬🟨",
+    favoriteLanguage: KnownLanguage = .zig,
     
-    var age = 18
-    
-    val knownLanguages = mutableListOf(
-        "Zig",
-        "Java",
-        "Kotlin",
-        "JavaScript",
-        "C#",
-        "C++",
-    )
-    val interests = mutableListOf(
+    age: u8 = 19,
+
+    interests: [][]const u8 = .{
+        "Computing History",
+        "Performance Optimization",
         "VLSI Design",
-        "Computer Architecture",
-        "Minecraft Plugin Development",
+        "Programming",
+        "Linux",
         "Video Games",
         "Music",
-    )
+    },
 
-}
+    linked_in: []const u8 = "https://www.linkedin.com/in/isaac-george-tech/",
+};
 ```
 
 <h2 align="center"><br/>Metrics</h3>
