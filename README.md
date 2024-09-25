@@ -37,7 +37,7 @@ pub const Bio = struct {
 
 <h2 align="center"><br/>Metrics</h3>
 
-[![MrGeoTech's Metrics](./metrics.terminal.svg)](https://github.com/lowlighter/metrics)
+<img src="./metrics.terminal.svg" alt="MrGeoTech's Statistics">
 
 <h2 align="center"><br/>Statistics</h3>
 
