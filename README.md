@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to my GitHub!</h1>
 
 ```zig
-pub const bio = struct {
+pub const Bio = struct {
     
     pub const KnownLanguage = enum(u8) {
         c,
