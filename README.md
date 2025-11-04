@@ -10,6 +10,7 @@ pub const Bio = struct {
         vhdl,
         verilog,
         zig,
+        python
     };
 
     name: []const u8 = "Isaac George",
@@ -19,7 +20,7 @@ pub const Bio = struct {
     institution: ?[]u8 = "NDSU 🟩🦬🟨",
     favoriteLanguage: KnownLanguage = .zig,
     
-    age: u8 = 19,
+    age: u8 = 20,
 
     interests: [][]const u8 = .{
         "Computing History",
